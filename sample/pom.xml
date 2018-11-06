@@ -196,6 +196,9 @@
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration>
+                            <forkCount>0</forkCount>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
